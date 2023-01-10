@@ -183,18 +183,17 @@ generateBtn.addEventListener('click', writePassword);
 
 
 // CODE RUNNING
+
+if (!document.hidden){
 getPasswordOptions();
-
-
-console.log(passwordParams);
-let trueKeyArray = []
-
+let trueKeyArray = [];
 
 for (let key in passwordParams) {
   if (passwordParams[key] == true){
-  trueKeyArray.push(key)
+  trueKeyArray.push(key);
   }
 } 
+}
 
 
 

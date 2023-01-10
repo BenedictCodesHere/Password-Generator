@@ -93,7 +93,7 @@ let passwordParams = {};
 // Function to prompt user for password options
 
 function getPasswordOptions() {
-
+  alert(`Welcome to the password generator`);
 let passLengthStr = prompt(`Length of password: min 10 and max 64)`);
 let passLength = Number(passLengthStr);
 
@@ -185,7 +185,7 @@ generateBtn.addEventListener('click', writePassword);
 // CODE RUNNING
 
 
-alert(`Welcome to the password generator`);
+
 getPasswordOptions();
 let trueKeyArray = [];
 

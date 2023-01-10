@@ -184,7 +184,8 @@ generateBtn.addEventListener('click', writePassword);
 
 // CODE RUNNING
 
-if (!document.hidden){
+
+alert(`Welcome to the password generator`);
 getPasswordOptions();
 let trueKeyArray = [];
 
@@ -193,9 +194,4 @@ for (let key in passwordParams) {
   trueKeyArray.push(key);
   }
 } 
-}
 
-
-
-// console.log(passwordParams);
-// console.log()
